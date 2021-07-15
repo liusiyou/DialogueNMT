@@ -9,7 +9,7 @@ We systematically investigate advanced models on the taskoriented dialogue trans
 
 Please download the processed data from [Link](https://www.dropbox.com/sh/v7vztd736ffa2x0/AABZ9T00gaTB01AwUoEr058ea?dl=0).
 
-1. 数据预处理
+1. Processing Steps
 
    * Step 1: remove non-printing characteristics (remove-non-printing-char.perl)
    * Step 2: normalize punctuations (normalize-punctuation.perl)
@@ -19,7 +19,8 @@ Please download the processed data from [Link](https://www.dropbox.com/sh/v7vztd
    * Step 6: delete sentences according to language id (langdetect)
    * Step 7: joint bpe (32000)
 
-2. 文件说明
+2. Folders and Files
+ 
    * chat_baseline: only chat domain data
 		* train: training data
 		* valid: validation data
